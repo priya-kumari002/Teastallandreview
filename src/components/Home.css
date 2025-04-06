@@ -1,0 +1,29 @@
+.container {
+    display: flex; 
+    
+    align-items: center;
+    justify-content: center;
+  }
+   img {
+    /* max-width: ; */
+    height:300px;
+    
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+   
+  }
+  .homeclass{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  /* Responsive Typography */
+  @media (max-width: 600px) {
+    .home-container h1 {
+      font-size: 1.8rem;
+    }
+  }
+  

@@ -1,0 +1,52 @@
+.about-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .about-container h1 {
+    font-size: 2.5rem;
+    color: #4b2e2e;
+    margin-bottom: 30px;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    color: black;
+  }
+  
+  .about-text {
+    max-width: 500px;
+    text-align: left;
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.7;
+  }
+  
+  .about-image img {
+    max-width: auto;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: -20px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-text {
+      text-align: center;
+    }
+  }
+  

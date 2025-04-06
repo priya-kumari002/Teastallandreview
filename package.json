@@ -9,13 +9,12 @@
   "type": "module",
   
   "scripts": {
+  
     
- 
-
   "predeploy": "npm run build",
+  
+    
   "deploy": "gh-pages -d dist",
-
-
   
     
   "dev": "vite",
@@ -105,5 +104,3 @@
   
   "homepage": "https://github.com/priya-kumari002/Teastallandreview#readme"
 }
-
-

@@ -31,7 +31,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/review" element={<ReviewComponent />} />
           </Routes>
-        </div>c:\Users\DELL\sqlexpressnodeBACKEND\lsbackend
+        </div>
         <Footer />
       </div>
     </Router>

@@ -1,23 +1,18 @@
 
 
+import React from "react";
 import "./Home.css";
-export default function Home(){
+import teaImage from "../assets/images/teatime.png"; // adjust if path is different
 
-
-return(<>
-<div class="container">
-<div className="homeclass">
-<div>
-<div className="homeclass"><h1>Tea Heaven</h1></div>
-{/* <img src="/src/assets/images/teatime.png"></img> */}
-<h1>Welcome to</h1>
-<h1>Chai Haven</h1>
-
-
-</div>
-</div>
-</div>
-
-</>)
-
+export default function Home() {
+  return (
+    <>
+      <div className="container">
+        <div className="homeclass">
+          <h1>Tea Heaven</h1>
+          <img src={teaImage} alt="Tea" />
+        </div>
+      </div>
+    </>
+  );
 }
